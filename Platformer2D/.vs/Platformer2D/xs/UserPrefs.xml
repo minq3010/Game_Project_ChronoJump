@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{C7E4F0F8-7DC5-37A4-3D47-D8EF407E39F5}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd79a40b-401b-4358-96fe-87ba5979f106" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameFolders/Scripts/Concretes/Managers/CheckpointsManager.cs">
+    <Files>
+      <File FileName="Library/PackageCache/com.unity.burst@1.6.6/Editor/BurstAotCompiler.cs" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Controllers/EndController.cs" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Controllers/LeverController.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Controllers/LeverTeleportController.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Managers/GameManager.cs" Line="57" Column="23" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Managers/ObjectPoolManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Inputs/PcInput.cs" Line="14" Column="27" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Controllers/StartpointController.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Controllers/TrunkProjectileController.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Managers/CheckpointsManager.cs" Line="35" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Abstracts/IPlayerInput.cs" Line="17" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Abstracts/SingletonObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Abstracts/Enemies.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/Mechanics/InteractHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/UIs/TutorialPanelButtons.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/UIs/GamePausedPanel.cs" Line="10" Column="15" />
+      <File FileName="Assets/GameFolders/Scripts/Concretes/UIs/GameEndPanel.cs" Line="22" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Platformer2D" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="GameFolders" expanded="True">
+                <Node name="Prefabs" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="Concretes" expanded="True">
+                    <Node name="Managers" expanded="True" />
+                    <Node name="UIs" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="Tilemap" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

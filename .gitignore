@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+*.app
+*.unitypackage
+*.csproj
+*.sln
+*.user
+*.pidb
+.vscode/
+
+# Burst debug info
+*BurstDebugInformation_DoNotShip
+
