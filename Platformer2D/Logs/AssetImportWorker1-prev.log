@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54964
+63626
 Successfully changed project path to: /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D
 /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/quocnm/PTUUG/PixelAdventure-Unity2D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4524623360] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 3412733516 [EditorId] 3412733516 [Version] 1048832 [Id] OSXEditor(0,Quocs-MacbookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4664497664] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 1769216856 [EditorId] 1769216856 [Version] 1048832 [Id] OSXEditor(0,Quocs-MacbookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4524623360] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 3412733516 [EditorId] 3412733516 [Version] 1048832 [Id] OSXEditor(0,Quocs-MacbookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4664497664] Host "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 1769216856 [EditorId] 1769216856 [Version] 1048832 [Id] OSXEditor(0,Quocs-MacbookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 183.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 198.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,75 +73,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56254
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002868 seconds.
+Registered in 0.003088 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 123.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 195.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
+- Completed reload, in  1.351 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1421ms)
-		BeginReloadAssembly (256ms)
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (976ms)
-			LoadAssemblies (255ms)
-			RebuildTransferFunctionScriptingTraits (4ms)
-			SetupTypeCache (251ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (932ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (584ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (552ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (195ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (340ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016308 seconds.
+Registered in 0.023333 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 138.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.589 seconds
+- Completed reload, in  2.176 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2593ms)
-		BeginReloadAssembly (303ms)
+	ReloadAssembly (2179ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (2113ms)
-			LoadAssemblies (243ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1766ms)
+			LoadAssemblies (213ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (823ms)
-			ReleaseScriptCaches (1ms)
+			SetupTypeCache (482ms)
+			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (839ms)
+			SetupLoadedEditorAssemblies (922ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (513ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (621ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,13 +150,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.24f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3945 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (113.2 KB). Loaded Objects now: 4403.
-Memory consumption went from 144.2 MB to 144.1 MB.
-Total: 5.846872 ms (FindLiveObjects: 0.599476 ms CreateObjectMapping: 0.584269 ms MarkObjects: 4.510108 ms  DeleteObjects: 0.150315 ms)
+Unloading 3992 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (113.4 KB). Loaded Objects now: 4452.
+Memory consumption went from 148.5 MB to 148.4 MB.
+Total: 5.964638 ms (FindLiveObjects: 0.396659 ms CreateObjectMapping: 0.334765 ms MarkObjects: 5.067788 ms  DeleteObjects: 0.164072 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,1140 +170,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 74576.772959 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 1/Assets/Traps/Fire/Fire.controller
-  artifactKey: Guid(d0ec3d9f8e86223419ada7a84641cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 1/Assets/Traps/Fire/Fire.controller using Guid(d0ec3d9f8e86223419ada7a84641cf98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebee16ffe98ae88265fdb98006786c7') in 1.134415 seconds 
+  Time since last request: 104252.892157 seconds.
+  path: Assets/GameFolders/Animations/Enemies/Chicken/Chicken.controller
+  artifactKey: Guid(24b144cb99a006247bf53ce606b7d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameFolders/Animations/Enemies/Chicken/Chicken.controller using Guid(24b144cb99a006247bf53ce606b7d6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a61dfd4cf6b9a955c04b48b30c83d6') in 1.232753 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007869 seconds.
+Registered in 0.005020 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.267 seconds
+- Completed reload, in  3.061 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3269ms)
-		BeginReloadAssembly (474ms)
+	ReloadAssembly (3062ms)
+		BeginReloadAssembly (308ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (235ms)
-		EndReloadAssembly (2460ms)
-			LoadAssemblies (246ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (2485ms)
+			LoadAssemblies (252ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (717ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (179ms)
-			SetupLoadedEditorAssemblies (1185ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (154ms)
-				ProcessInitializeOnLoadAttributes (903ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (92.4 KB). Loaded Objects now: 4419.
-Memory consumption went from 147.9 MB to 147.8 MB.
-Total: 22.227221 ms (FindLiveObjects: 2.303435 ms CreateObjectMapping: 1.322503 ms MarkObjects: 18.387414 ms  DeleteObjects: 0.209343 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004426 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.854 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2855ms)
-		BeginReloadAssembly (329ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (160ms)
-		EndReloadAssembly (2294ms)
-			LoadAssemblies (156ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (847ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (169ms)
-			SetupLoadedEditorAssemblies (962ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (717ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (92.6 KB). Loaded Objects now: 4434.
-Memory consumption went from 147.9 MB to 147.8 MB.
-Total: 6.453083 ms (FindLiveObjects: 0.446543 ms CreateObjectMapping: 0.302489 ms MarkObjects: 5.640554 ms  DeleteObjects: 0.061944 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003715 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.968 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2969ms)
-		BeginReloadAssembly (502ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (56ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (220ms)
-		EndReloadAssembly (2225ms)
-			LoadAssemblies (206ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (741ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (214ms)
-			SetupLoadedEditorAssemblies (922ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (646ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4449.
-Memory consumption went from 150.1 MB to 149.4 MB.
-Total: 7.078954 ms (FindLiveObjects: 0.618734 ms CreateObjectMapping: 0.623860 ms MarkObjects: 5.233858 ms  DeleteObjects: 0.601251 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003922 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.650 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3652ms)
-		BeginReloadAssembly (593ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (37ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (293ms)
-		EndReloadAssembly (2721ms)
-			LoadAssemblies (336ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1009ms)
+			SetupTypeCache (1090ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (138ms)
-			SetupLoadedEditorAssemblies (1189ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (899ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4464.
-Memory consumption went from 150.1 MB to 149.5 MB.
-Total: 7.317846 ms (FindLiveObjects: 0.444960 ms CreateObjectMapping: 0.404744 ms MarkObjects: 5.814859 ms  DeleteObjects: 0.651884 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004889 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.959 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2961ms)
-		BeginReloadAssembly (274ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (2467ms)
-			LoadAssemblies (149ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (895ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (173ms)
-			SetupLoadedEditorAssemblies (1084ms)
+			SetupLoadedEditorAssemblies (909ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (823ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4479.
-Memory consumption went from 150.1 MB to 149.5 MB.
-Total: 7.816053 ms (FindLiveObjects: 0.602684 ms CreateObjectMapping: 0.424407 ms MarkObjects: 5.958349 ms  DeleteObjects: 0.828267 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007171 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.081 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2082ms)
-		BeginReloadAssembly (400ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (142ms)
-		EndReloadAssembly (1539ms)
-			LoadAssemblies (263ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (791ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (634ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4494.
-Memory consumption went from 150.1 MB to 149.5 MB.
-Total: 4.767705 ms (FindLiveObjects: 0.419276 ms CreateObjectMapping: 0.266796 ms MarkObjects: 3.608857 ms  DeleteObjects: 0.471573 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003071 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2780ms)
-		BeginReloadAssembly (440ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (203ms)
-		EndReloadAssembly (1979ms)
-			LoadAssemblies (211ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (735ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (842ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (613ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4509.
-Memory consumption went from 150.2 MB to 149.5 MB.
-Total: 6.190408 ms (FindLiveObjects: 0.475719 ms CreateObjectMapping: 0.370672 ms MarkObjects: 4.737269 ms  DeleteObjects: 0.605606 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004647 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.719 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2721ms)
-		BeginReloadAssembly (278ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (2252ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (673ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (231ms)
-			SetupLoadedEditorAssemblies (1025ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (728ms)
-				ProcessInitializeOnLoadMethodAttributes (146ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4524.
-Memory consumption went from 150.2 MB to 149.5 MB.
-Total: 7.578795 ms (FindLiveObjects: 0.762590 ms CreateObjectMapping: 0.527612 ms MarkObjects: 5.591356 ms  DeleteObjects: 0.694578 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 4524.
-Memory consumption went from 71.9 MB to 71.2 MB.
-Total: 33.227638 ms (FindLiveObjects: 1.508553 ms CreateObjectMapping: 0.371657 ms MarkObjects: 30.444133 ms  DeleteObjects: 0.901847 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3109.241569 seconds.
-  path: Assets/GameFolders/Prefabs/Managers/[GameManager].prefab
-  artifactKey: Guid(65a3308349d634e4da626ef0fac29ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Managers/[GameManager].prefab using Guid(65a3308349d634e4da626ef0fac29ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436abf30b578554329417faabb4b7e5c') in 0.764654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000913 seconds.
-  path: Assets/GameFolders/Prefabs/Grids/Middleground.prefab
-  artifactKey: Guid(9de11ddd3c8405c4daaebda03155d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Grids/Middleground.prefab using Guid(9de11ddd3c8405c4daaebda03155d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbc8fec11a978ed883529e4b4d806eb') in 0.430465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/LeverPineapple.prefab
-  artifactKey: Guid(a9fceebfcd013f84a8656654bd284b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/LeverPineapple.prefab using Guid(a9fceebfcd013f84a8656654bd284b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc3c817d002310d8a6c2868cbd0df92') in 0.041102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/GameFolders/Prefabs/UIs/EventSystem.prefab
-  artifactKey: Guid(3178864607009634eaa6d9bf0a00266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/UIs/EventSystem.prefab using Guid(3178864607009634eaa6d9bf0a00266e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa46ec667824b5984759a3ec6d7e5ef') in 0.010783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000915 seconds.
-  path: Assets/GameFolders/Prefabs/Fruits/Banana.prefab
-  artifactKey: Guid(e8b7fdd89cc376e4db30d9e7b2c78d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Fruits/Banana.prefab using Guid(e8b7fdd89cc376e4db30d9e7b2c78d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632a596354691f8b8c7e3eddb7f855b7') in 0.028981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/GameFolders/Prefabs/FX/DeathParticle.prefab
-  artifactKey: Guid(66b88903673b2a04a8d8176f44df12ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/FX/DeathParticle.prefab using Guid(66b88903673b2a04a8d8176f44df12ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dcec475e34df34acdd6a1c6e1ac1e5') in 0.195830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/GameFolders/Prefabs/OneWayPlatforms/OneWay_M_Stone.prefab
-  artifactKey: Guid(2363673bd860f14439b3846d8e14a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/OneWayPlatforms/OneWay_M_Stone.prefab using Guid(2363673bd860f14439b3846d8e14a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659d253080f78dd90262f6be316af1e8') in 0.027413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/Lever.prefab
-  artifactKey: Guid(7c5446c92f916114489c1f5dcb118af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/Lever.prefab using Guid(7c5446c92f916114489c1f5dcb118af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b169f9e13df4f0439e01afeaa811091') in 0.024978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/GameFolders/Prefabs/UIs/InGameCanvas.prefab
-  artifactKey: Guid(be1f6c2342cf00a46b837dc5918665a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/UIs/InGameCanvas.prefab using Guid(be1f6c2342cf00a46b837dc5918665a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9013f6c5cb33c3e0588084082fb13f') in 0.111287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/GameFolders/Prefabs/Grids/Foreground.prefab
-  artifactKey: Guid(09cef3e5dd477014bb7ae83cded2e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Grids/Foreground.prefab using Guid(09cef3e5dd477014bb7ae83cded2e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e541bebb6cedfb146b0735b6474186dd') in 0.065739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/GameFolders/Prefabs/UIs/Canvas.prefab
-  artifactKey: Guid(a7c2f4eb8725e564d8c182f295018b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/UIs/Canvas.prefab using Guid(a7c2f4eb8725e564d8c182f295018b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443595f13c6008f314123e85041ce340') in 0.006749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
-  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27d05abf22164f8fa7387f12ca2eac9') in 0.033582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/GameFolders/Prefabs/Managers/[SoundManager].prefab
-  artifactKey: Guid(28bf2a9b98587ef4c8df8d82e0d5efdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Managers/[SoundManager].prefab using Guid(28bf2a9b98587ef4c8df8d82e0d5efdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285b6b2fc3bcc1ae4cdc0f3d8a46ff23') in 0.048833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/GameFolders/Prefabs/Box/Box.prefab
-  artifactKey: Guid(4f0bab9723f4a2c488ff8f54427d2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Box/Box.prefab using Guid(4f0bab9723f4a2c488ff8f54427d2630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d44ae7cdaa7ea9d3c6f8503ec4392a3') in 0.058707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/GameFolders/Tilemap/Palettes/Background.prefab
-  artifactKey: Guid(b5da13f7086b76e4181cf5baf2146587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Palettes/Background.prefab using Guid(b5da13f7086b76e4181cf5baf2146587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f614b8cb6db4705851bed7258e5fdbfe') in 0.032117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/GameFolders/Prefabs/Doors/DoorPineapple.prefab
-  artifactKey: Guid(f07a37b978e68ac4d9dc4b1efe695901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Doors/DoorPineapple.prefab using Guid(f07a37b978e68ac4d9dc4b1efe695901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811dbc14a9b0fcf6942ffaf60f3858d3') in 0.020974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/LeverBanana.prefab
-  artifactKey: Guid(5304859f77f26ef4f9a75debe0064305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/LeverBanana.prefab using Guid(5304859f77f26ef4f9a75debe0064305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea1858f06befd858e7bae1941db9939') in 0.118453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000755 seconds.
-  path: Assets/GameFolders/Prefabs/Traps/FlyingPlatform.prefab
-  artifactKey: Guid(3444eeac04e582d4e808edfed6f2bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Traps/FlyingPlatform.prefab using Guid(3444eeac04e582d4e808edfed6f2bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8107186754e373791283a26624db86') in 0.015949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/LeverMelon.prefab
-  artifactKey: Guid(9261a56e85ac0c54c9d240fc1219eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/LeverMelon.prefab using Guid(9261a56e85ac0c54c9d240fc1219eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01dc36db7b776a7a032ca52d45184e8') in 0.049809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/GameFolders/Prefabs/OneWayPlatforms/TrapOneWay_M_Yellow.prefab
-  artifactKey: Guid(0c16a212a93453146845d92fabf20551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/OneWayPlatforms/TrapOneWay_M_Yellow.prefab using Guid(0c16a212a93453146845d92fabf20551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fd2c9991816837f72a07921fa491e4') in 0.037484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/GameFolders/Prefabs/Checkpoints/Startpoint.prefab
-  artifactKey: Guid(fa88ea423bf235246be9597ad15717fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Checkpoints/Startpoint.prefab using Guid(fa88ea423bf235246be9597ad15717fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a620062018b9b3577cf96054437e3af') in 0.044302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/GameFolders/Prefabs/Grids/Background.prefab
-  artifactKey: Guid(e18694860a7251a45b8101e8fa818589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Grids/Background.prefab using Guid(e18694860a7251a45b8101e8fa818589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5df90ac1aec936095643e591230c68a') in 0.043727 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/GameFolders/Prefabs/Traps/Saw.prefab
-  artifactKey: Guid(14e239c2dc2b76f428c9370328566735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Traps/Saw.prefab using Guid(14e239c2dc2b76f428c9370328566735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5660f3e486fc68cf89f20ecddba9b9c2') in 0.067611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/Lever4Melon.prefab
-  artifactKey: Guid(bf0c71906644b09408ba9d4ae70a8e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/Lever4Melon.prefab using Guid(bf0c71906644b09408ba9d4ae70a8e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475a591b988103685f1ebe3fe63f40a4') in 0.063724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/GameFolders/Prefabs/Traps/Firetrap.prefab
-  artifactKey: Guid(5d64995b3479d314f84c930be8c267f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Traps/Firetrap.prefab using Guid(5d64995b3479d314f84c930be8c267f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4786a44c770a8f044866300610ce5e21') in 0.022238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/GameFolders/Prefabs/Managers/[ObjectPoolManager].prefab
-  artifactKey: Guid(97ce6961f5c960a48a60e5ce8cc08b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Managers/[ObjectPoolManager].prefab using Guid(97ce6961f5c960a48a60e5ce8cc08b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466d7d758e43dab6a24ba17b2f7c5c23') in 0.013274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/GameFolders/Prefabs/Enemies/Chicken.prefab
-  artifactKey: Guid(f39e5b70c8662584d902d28dbe2385ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Enemies/Chicken.prefab using Guid(f39e5b70c8662584d902d28dbe2385ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a60525277840bf3c300a0c64dab042') in 0.038026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/GameFolders/Prefabs/Traps/Spike.prefab
-  artifactKey: Guid(72c11eb4450d9e94ba5bb6a7f72b40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Traps/Spike.prefab using Guid(72c11eb4450d9e94ba5bb6a7f72b40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad4ed9d1b025dac58c0aa82a042bf5f') in 0.049288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/GameFolders/Prefabs/OneWayPlatforms/OneWay_XS_Pink.prefab
-  artifactKey: Guid(1343747c2010d654398b3ed22c0a5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/OneWayPlatforms/OneWay_XS_Pink.prefab using Guid(1343747c2010d654398b3ed22c0a5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a0daafb7be11884dde0c11a8e020ad') in 0.025074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/GameFolders/Prefabs/Core/Player.prefab
-  artifactKey: Guid(61f15fd1a44214348807bbdfb33edb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Core/Player.prefab using Guid(61f15fd1a44214348807bbdfb33edb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c31491df69b5960674a85465716df37') in 0.077277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/GameFolders/Prefabs/Doors/DoorBanana.prefab
-  artifactKey: Guid(0016a1ec7cd341e458785a72a2af2eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Doors/DoorBanana.prefab using Guid(0016a1ec7cd341e458785a72a2af2eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769655db931b2ab98632954b230682f7') in 0.016595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/GameFolders/Prefabs/Checkpoints/CheckpointsManager.prefab
-  artifactKey: Guid(dc68603551514ce458c3077a55f0b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Checkpoints/CheckpointsManager.prefab using Guid(dc68603551514ce458c3077a55f0b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb808ad25464d19b970dbeab9a674a1d') in 0.006548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab
-  artifactKey: Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Open Sprite Shape.prefab using Guid(86ae7de409eb54f619fb1328e4d42480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2740c3da12570fd88e70b61b85ce73') in 0.059546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/GameFolders/Prefabs/Traps/SpikedBallChains.prefab
-  artifactKey: Guid(e979b765b650c024cb2c51674fa03d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Traps/SpikedBallChains.prefab using Guid(e979b765b650c024cb2c51674fa03d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c1b9efa3c38a2ff45d5fbc44731891') in 0.043999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/GameFolders/Prefabs/UIs/WorldSpaceTutorialCanvas.prefab
-  artifactKey: Guid(84b317d2cb0a348498fcbd177d91f1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/UIs/WorldSpaceTutorialCanvas.prefab using Guid(84b317d2cb0a348498fcbd177d91f1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7797802ba2d3df8051c53ba5de37bc') in 0.034383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/GameFolders/Prefabs/Grids/StrictObjects.prefab
-  artifactKey: Guid(4ade54a4cbff44c489e828ae01dc51c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Grids/StrictObjects.prefab using Guid(4ade54a4cbff44c489e828ae01dc51c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12a2282339a27600424afbb1565710') in 0.016109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/Lever3Pineapple.prefab
-  artifactKey: Guid(cb0e1de2881063046a312866a6ab028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/Lever3Pineapple.prefab using Guid(cb0e1de2881063046a312866a6ab028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1df8a0e04f864779ffaf6ba05391ec') in 0.069193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002846 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/Lever4Banana.prefab
-  artifactKey: Guid(c917778132f016f4b828c0a71f078b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/Lever4Banana.prefab using Guid(c917778132f016f4b828c0a71f078b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6f3c2f6ac200a80af7d20091f15ea0') in 0.020514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/GameFolders/Prefabs/Core/FollowingCamera.prefab
-  artifactKey: Guid(94b278770d6966047a7e939656859953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Core/FollowingCamera.prefab using Guid(94b278770d6966047a7e939656859953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700f8dbc5091fa30f19dd422966625e5') in 0.010395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/GameFolders/Prefabs/Checkpoints/Checkpoint.prefab
-  artifactKey: Guid(25d0c1698dc68db49869e5dc688dc0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Checkpoints/Checkpoint.prefab using Guid(25d0c1698dc68db49869e5dc688dc0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b99f70dc87721be5c6713879bccff8') in 0.029527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/GameFolders/Prefabs/Checkpoints/End .prefab
-  artifactKey: Guid(1b1f19c6261a2d841a373eb780326db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Checkpoints/End .prefab using Guid(1b1f19c6261a2d841a373eb780326db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121ade15dacdf7eb77540e864cb26013') in 0.022551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/GameFolders/Prefabs/OneWayPlatforms/OneWay_XS_Orange.prefab
-  artifactKey: Guid(cfbe64debf753e4469eb36fbabc72c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/OneWayPlatforms/OneWay_XS_Orange.prefab using Guid(cfbe64debf753e4469eb36fbabc72c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b7c4ca2d4bdc9f5fa7fb85f8b38a64') in 0.022671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/GameFolders/Prefabs/Grids/Grid.prefab
-  artifactKey: Guid(71101c9c4ecb2944a82b5f5ed9f05130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Grids/Grid.prefab using Guid(71101c9c4ecb2944a82b5f5ed9f05130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755dfb993556c1c378e185df5548949f') in 0.087055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/GameFolders/Prefabs/Levers/LeverTeleport.prefab
-  artifactKey: Guid(128aadec0369a5a4a824b87b0cb62146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Levers/LeverTeleport.prefab using Guid(128aadec0369a5a4a824b87b0cb62146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1487b3514e108906ba99f590ccb04c31') in 0.038837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/GameFolders/Prefabs/Core/Main Camera.prefab
-  artifactKey: Guid(97332725e1c9d544db02e3efe0053527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Core/Main Camera.prefab using Guid(97332725e1c9d544db02e3efe0053527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0ca5800eba9836fde128d1967edb56') in 0.012417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/GameFolders/Prefabs/Traps/Tramboline.prefab
-  artifactKey: Guid(d05be675071b03247bb33f52491598ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Prefabs/Traps/Tramboline.prefab using Guid(d05be675071b03247bb33f52491598ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b699ef5ed0b1c7d9e119a026d2e5035f') in 0.028157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.594887 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5527babf88dcb6ff38db90a2359374') in 3.496819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/GameFolders/Fonts/Thaleah_PixelFont/Materials/ThaleahFat.mat
-  artifactKey: Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Fonts/Thaleah_PixelFont/Materials/ThaleahFat.mat using Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b243bdee241e2a27b445dd8f7acaa94') in 0.177981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83750ab55c792116b7b160d4c43fdc2b') in 0.306593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92959a1734da9727477e5a3ab10230b') in 0.390094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000779 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fae7fa4aa9906409c5d92a30d25b6c') in 0.079160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/GameFolders/MaterialsParticles/Particle1.mat
-  artifactKey: Guid(2e4565039ea46da49a48162667f3e382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/MaterialsParticles/Particle1.mat using Guid(2e4565039ea46da49a48162667f3e382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef739ee0c08a32ac7ce0475d25769fc') in 0.047012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.828141 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Background/Gray.asset
-  artifactKey: Guid(2d5bee4b45367ef4a8b569910743fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Background/Gray.asset using Guid(2d5bee4b45367ef4a8b569910743fdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6644c2e55172a763f3998223b6f77e85') in 0.035974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Background/Yellow.asset
-  artifactKey: Guid(d9ee8daee3bc2c34a8a6d7d58ee58477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Background/Yellow.asset using Guid(d9ee8daee3bc2c34a8a6d7d58ee58477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96473e9b4f299f18494202989cd3ad53') in 0.027382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Background/Pink.asset
-  artifactKey: Guid(aa5da9a690be5a447941336ca26932c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Background/Pink.asset using Guid(aa5da9a690be5a447941336ca26932c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1082cb0d42214c819c44dba58fae802') in 0.033119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.259015 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_2.asset
-  artifactKey: Guid(77f10851c4ce0a942b4dd33e5497c5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_2.asset using Guid(77f10851c4ce0a942b4dd33e5497c5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a057fa1c2005843096f91765fe2f11bf') in 0.013171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_16.asset
-  artifactKey: Guid(1ad01676357f1394984a7fad0644ab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_16.asset using Guid(1ad01676357f1394984a7fad0644ab8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0c853c5c1acebe9e10d84d62f7b6bd') in 0.015959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_28.asset
-  artifactKey: Guid(58171f287bb1c584aa0c30bdd3da8eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_28.asset using Guid(58171f287bb1c584aa0c30bdd3da8eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0256c7259ac0f4c494555907071dc3a9') in 0.012267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_17.asset
-  artifactKey: Guid(cfcb5b4611276944992e05f9f7d3e8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_17.asset using Guid(cfcb5b4611276944992e05f9f7d3e8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e114d0ad59c2018fcd694cf4037cbe') in 0.011725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002359 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_88.asset
-  artifactKey: Guid(e7110abc8ec8e854897683bd518226cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_88.asset using Guid(e7110abc8ec8e854897683bd518226cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636c46febca23bbbdb66b30e20169d03') in 0.014575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_54.asset
-  artifactKey: Guid(645d1a1d38d7a074092a764f87a32df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_54.asset using Guid(645d1a1d38d7a074092a764f87a32df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce04c36376fc310888a05ad2cee93c86') in 0.011552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_8.asset
-  artifactKey: Guid(834bd09800eadd64797d6cc00963d312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_8.asset using Guid(834bd09800eadd64797d6cc00963d312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a68abd55a6369aab9022bc5aa14266') in 0.012973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_83.asset
-  artifactKey: Guid(935664c3c98d777429cace4205af4a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_83.asset using Guid(935664c3c98d777429cace4205af4a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c672dd1d019347e705f1541da3edaa6') in 0.010162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_62.asset
-  artifactKey: Guid(54b30cf43d65a994d8a7e49e9af852b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_62.asset using Guid(54b30cf43d65a994d8a7e49e9af852b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229daead58e656bf23875c8f21dbf4c8') in 0.015423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_57.asset
-  artifactKey: Guid(e68f020bdc1c7dc4db60327083dde32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_57.asset using Guid(e68f020bdc1c7dc4db60327083dde32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23798c785275eda8e67e6561d62311dd') in 0.083098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_49.asset
-  artifactKey: Guid(7f3b1498e4211af4fabf35446a11ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_49.asset using Guid(7f3b1498e4211af4fabf35446a11ceff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82476a996b0ca6166e30f9066387c3e3') in 0.032829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_22.asset
-  artifactKey: Guid(f5e073f2fef706d4bab6ea6ca10773a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_22.asset using Guid(f5e073f2fef706d4bab6ea6ca10773a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b80930367423d6224a4f3c15f5cdc8e') in 0.011144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001840 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_35.asset
-  artifactKey: Guid(b24c10ff84d4e674dbb213eecb4ee164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_35.asset using Guid(b24c10ff84d4e674dbb213eecb4ee164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39228e031b1cb4366898d6659124da53') in 0.014089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_25.asset
-  artifactKey: Guid(927bc73fa7c46cf49af9e340fbe11558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_25.asset using Guid(927bc73fa7c46cf49af9e340fbe11558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06120bb636d595646f5ee27b0ec0440a') in 0.012338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_20.asset
-  artifactKey: Guid(67eb35eee46c6bc448edd7f2bd5a557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_20.asset using Guid(67eb35eee46c6bc448edd7f2bd5a557b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ae2b86b884df660cf6a9dec6f68ded') in 0.010881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_84.asset
-  artifactKey: Guid(73a0ef7482875884e98b80c71a3e953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_84.asset using Guid(73a0ef7482875884e98b80c71a3e953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b331801ceb3ac34244a5bbd4b5fa9f2') in 0.034975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017241 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_4.asset
-  artifactKey: Guid(fe5da5d0e616bcb43acd590950acbc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_4.asset using Guid(fe5da5d0e616bcb43acd590950acbc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5797aa4f7d9bcfb613439f3c2e823b9c') in 0.010544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_32.asset
-  artifactKey: Guid(5f35293c84f8fae41842860a10d0b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_32.asset using Guid(5f35293c84f8fae41842860a10d0b44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ea9304ee96bdbf9178472ffad28ee3') in 0.010121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_33.asset
-  artifactKey: Guid(6bb1d6df49614bd428aaa1d4b0fd904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_33.asset using Guid(6bb1d6df49614bd428aaa1d4b0fd904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2228563cf368bbf76f13a213163f3a0d') in 0.009333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_71.asset
-  artifactKey: Guid(4709cf7864b140f44a2b7bbe88ba7cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_71.asset using Guid(4709cf7864b140f44a2b7bbe88ba7cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b3b723f01e7da7634efa6e1f61f27d') in 0.010398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_42.asset
-  artifactKey: Guid(cda6a06496bbb954d89cd637f58996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_42.asset using Guid(cda6a06496bbb954d89cd637f58996fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4183b9f4d7014afcb0d707f267c56b4') in 0.008957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_3.asset
-  artifactKey: Guid(e322e9a94dfb9774caf26e32552f86c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_3.asset using Guid(e322e9a94dfb9774caf26e32552f86c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ffa0316700fef8607822cc194291d8') in 0.050174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002600 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_56.asset
-  artifactKey: Guid(91371574b1a394445ac46158cfee35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_56.asset using Guid(91371574b1a394445ac46158cfee35c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a35fea67dff8265c67a223ceb3abb6') in 0.007999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_73.asset
-  artifactKey: Guid(f20c1acf0acf4504f9e027101c97032b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_73.asset using Guid(f20c1acf0acf4504f9e027101c97032b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecdf72f2da0f1eda95d43f976be93fd') in 0.008195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_61.asset
-  artifactKey: Guid(807515f290481884588a0903c8c2f704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_61.asset using Guid(807515f290481884588a0903c8c2f704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5318ce894fb635c1f150445e045bb730') in 0.007749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_65.asset
-  artifactKey: Guid(adf65fee185d00f42909b3689572b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_65.asset using Guid(adf65fee185d00f42909b3689572b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3b45d894da2a836bcddc8031374280') in 0.007968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_11.asset
-  artifactKey: Guid(820aa7e3486e5b041a180c75fe874045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_11.asset using Guid(820aa7e3486e5b041a180c75fe874045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfec79c3206e4acf878f15996ec3376c') in 0.008669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_18.asset
-  artifactKey: Guid(1e3bed9d407476047a340ec4186ccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_18.asset using Guid(1e3bed9d407476047a340ec4186ccc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafb3377364323437b6e619d4965989f') in 0.007551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_87.asset
-  artifactKey: Guid(155db2dbc5add5a4ea6ae086931d212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_87.asset using Guid(155db2dbc5add5a4ea6ae086931d212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd215d5cfa818a48220cfdbadf8359c4f') in 0.008955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_48.asset
-  artifactKey: Guid(5220fc4d5c2628340965463778912227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_48.asset using Guid(5220fc4d5c2628340965463778912227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb41a9835eae475c12f2e0280db622c8') in 0.018922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_76.asset
-  artifactKey: Guid(1942658596739304b85f6b6eea1cd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Tilemap/Tiles/Foreground/Terrain (16x16)_76.asset using Guid(1942658596739304b85f6b6eea1cd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c20b3505a05a0ccbf898aecc15e952') in 0.012381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.487236 seconds.
-  path: Assets/GameFolders/Sounds/attack.wav
-  artifactKey: Guid(37d87021ffb85d0469185512c3ab31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/attack.wav using Guid(37d87021ffb85d0469185512c3ab31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bb926fc1b269ad5e371e1e2310b44e') in 3.317565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/GameFolders/Sounds/bounce.aiff
-  artifactKey: Guid(b313485c641482f429732374efa6f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/bounce.aiff using Guid(b313485c641482f429732374efa6f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275c579a5c4a4f86e3aee04856f54fb1') in 2.756125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/GameFolders/Sounds/death.mp3
-  artifactKey: Guid(e80a6bcdaabdf6342b86be9d809abd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/death.mp3 using Guid(e80a6bcdaabdf6342b86be9d809abd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17171ea2e1e443046c6f8da9dde54c8') in 0.190987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/GameFolders/Sounds/endSong.wav
-  artifactKey: Guid(2f67312866896fa4697e22b9991ccb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/endSong.wav using Guid(2f67312866896fa4697e22b9991ccb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67638db283a644c02276933a07b34040') in 0.019688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/GameFolders/Sounds/lever.wav
-  artifactKey: Guid(0a4a86b413378364c8df92e35e421c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/lever.wav using Guid(0a4a86b413378364c8df92e35e421c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea8c91d122a07a307a6c45433ea4064') in 0.011439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/GameFolders/Sounds/teleport.wav
-  artifactKey: Guid(0ffb716fb71fc6e41a45c747711340ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/teleport.wav using Guid(0ffb716fb71fc6e41a45c747711340ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc34330ce1d4159b42f056c22ed68e8') in 0.029884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003543 seconds.
-  path: Assets/GameFolders/Sounds/shakyplatformstheme.wav
-  artifactKey: Guid(f27ac22a94d3bc04ca05233d35553c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/shakyplatformstheme.wav using Guid(f27ac22a94d3bc04ca05233d35553c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753954994f2118f28a7def6b3bb584c4') in 0.029797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/GameFolders/Sounds/leverTick.wav
-  artifactKey: Guid(4aa92e3ca742600419c2f6544ef22b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/leverTick.wav using Guid(4aa92e3ca742600419c2f6544ef22b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569db0daf987de76d1526d76a0e1110a') in 0.014672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003229 seconds.
-  path: Assets/GameFolders/Sounds/cartoonpop.flac
-  artifactKey: Guid(7da03cb93aeefac41b1f87401ad6a23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameFolders/Sounds/cartoonpop.flac using Guid(7da03cb93aeefac41b1f87401ad6a23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9477dc38b75b477bb274ecb283322164') in 0.315672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.834006 seconds.
-  path: Assets/AssetFolders/Art/Lever-Shee2t.png
-  artifactKey: Guid(e3ba2e6a42304ec468140f739f94a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Art/Lever-Shee2t.png using Guid(e3ba2e6a42304ec468140f739f94a315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6d71e0036179c2ce0931174185af37') in 1.533144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.477580 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Bat/Flying (46x30).png
-  artifactKey: Guid(d2de0d5d65de6fe4c819bae5f4e4c117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Bat/Flying (46x30).png using Guid(d2de0d5d65de6fe4c819bae5f4e4c117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5510dc2fe0a1e872a22e80d814cf8ca4') in 0.046849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.641513 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Trunk/Bullet.png
-  artifactKey: Guid(f817ba5aabd773e4f914480bdd62d0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Trunk/Bullet.png using Guid(f817ba5aabd773e4f914480bdd62d0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97799e8453599bb4a182f90926de29e1') in 0.023304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Trunk/Idle (64x32).png
-  artifactKey: Guid(bf4df7b2c9cda4c44b372e2b47a5cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Trunk/Idle (64x32).png using Guid(bf4df7b2c9cda4c44b372e2b47a5cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac678dac5da21aa972a133c2e43d0cf1') in 0.161380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.322636 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Turtle/Idle 2 (44x26).png
-  artifactKey: Guid(a9c658600a401f347888cfd916603aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Turtle/Idle 2 (44x26).png using Guid(a9c658600a401f347888cfd916603aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75de756d16f5d8fc50384118f54f0c58') in 0.092993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Turtle/Spikes in (44x26).png
-  artifactKey: Guid(e6fc6dc4e21030043abfa53d019c42ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 2/Assets/Enemies/Turtle/Spikes in (44x26).png using Guid(e6fc6dc4e21030043abfa53d019c42ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79239c75567c946b2793fdec8c21556') in 0.071632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.142502 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 1/Assets/Other/Shadow.png
-  artifactKey: Guid(38ea9af89efd60b4ab324ed5b168cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 1/Assets/Other/Shadow.png using Guid(38ea9af89efd60b4ab324ed5b168cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a923309619b7fff586bdf96b7031bf5') in 0.020109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/AssetFolders/Thirdparty/Pixel Adventure 1/Assets/Other/Transition.png
-  artifactKey: Guid(af34cad9a50a94c42b0907fd58d6f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetFolders/Thirdparty/Pixel Adventure 1/Assets/Other/Transition.png using Guid(af34cad9a50a94c42b0907fd58d6f99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aa637b6c19dc24ae8ab8f511ddb9e7') in 0.037516 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004709 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.782 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2784ms)
-		BeginReloadAssembly (392ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (181ms)
-		EndReloadAssembly (2176ms)
-			LoadAssemblies (170ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (903ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (139ms)
-			SetupLoadedEditorAssemblies (869ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (641ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (640ms)
 				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3947 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (0.6 MB). Loaded Objects now: 4616.
-Memory consumption went from 190.7 MB to 190.1 MB.
-Total: 7.114883 ms (FindLiveObjects: 0.533775 ms CreateObjectMapping: 0.356552 ms MarkObjects: 5.637344 ms  DeleteObjects: 0.585850 ms)
+Unloading 3968 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (92.6 KB). Loaded Objects now: 4468.
+Memory consumption went from 150.2 MB to 150.1 MB.
+Total: 7.867179 ms (FindLiveObjects: 0.508460 ms CreateObjectMapping: 0.341034 ms MarkObjects: 6.923480 ms  DeleteObjects: 0.092724 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1317,49 +232,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004646 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.406 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2407ms)
-		BeginReloadAssembly (279ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (1939ms)
-			LoadAssemblies (150ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (656ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (144ms)
-			SetupLoadedEditorAssemblies (874ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (647ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3946 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.6 MB). Loaded Objects now: 4631.
-Memory consumption went from 190.7 MB to 190.0 MB.
-Total: 10.146554 ms (FindLiveObjects: 0.569755 ms CreateObjectMapping: 0.345091 ms MarkObjects: 8.420464 ms  DeleteObjects: 0.809216 ms)
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (92.5 KB). Loaded Objects now: 4468.
+Memory consumption went from 71.2 MB to 71.1 MB.
+Total: 30.336601 ms (FindLiveObjects: 1.044660 ms CreateObjectMapping: 0.279812 ms MarkObjects: 28.895063 ms  DeleteObjects: 0.115108 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1371,154 +249,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004646 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.560 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2563ms)
-		BeginReloadAssembly (284ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (127ms)
-		EndReloadAssembly (2087ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (814ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (160ms)
-			SetupLoadedEditorAssemblies (855ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (616ms)
-				ProcessInitializeOnLoadMethodAttributes (112ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3946 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.6 MB). Loaded Objects now: 4646.
-Memory consumption went from 190.7 MB to 190.0 MB.
-Total: 11.549117 ms (FindLiveObjects: 1.222538 ms CreateObjectMapping: 0.340550 ms MarkObjects: 9.305458 ms  DeleteObjects: 0.679147 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005184 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.046 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3048ms)
-		BeginReloadAssembly (592ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (255ms)
-		EndReloadAssembly (2152ms)
-			LoadAssemblies (345ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (780ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (900ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (676ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3946 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.6 MB). Loaded Objects now: 4661.
-Memory consumption went from 190.7 MB to 190.0 MB.
-Total: 5.101024 ms (FindLiveObjects: 0.392575 ms CreateObjectMapping: 0.235125 ms MarkObjects: 4.013821 ms  DeleteObjects: 0.458219 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006705 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/quocnm/PTUUG/PixelAdventure-Unity2D/Platformer2D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.917 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3919ms)
-		BeginReloadAssembly (679ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (57ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (308ms)
-		EndReloadAssembly (2795ms)
-			LoadAssemblies (325ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1162ms)
-			ReleaseScriptCaches (15ms)
-			RebuildScriptCaches (156ms)
-			SetupLoadedEditorAssemblies (1048ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (809ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
