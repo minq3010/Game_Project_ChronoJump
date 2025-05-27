@@ -1,1 +1,0 @@
-tôi đã sửa báo cáo bằng vim
