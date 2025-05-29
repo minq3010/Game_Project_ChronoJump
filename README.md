@@ -1,1 +1,1 @@
-Dự án game của nhóm 8
+Dự án game của nhóm 9 - (Bắc Cường Quốc Thắng)
