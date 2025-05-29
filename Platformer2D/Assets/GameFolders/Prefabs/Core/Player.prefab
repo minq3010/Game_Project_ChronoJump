@@ -196,7 +196,6 @@ MonoBehaviour:
   _maxHealth: 3
   _IsCooldownAfterHit: 1
   _cooldownTimeAfterHit: 0.8
-  _currentHealth: 0
 --- !u!114 &2228349935118738270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +285,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &2228349935118744736
 BoxCollider2D:
   m_ObjectHideFlags: 0
